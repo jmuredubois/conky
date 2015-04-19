@@ -1,12 +1,11 @@
 ## Conky
-<img src='1366x768.png' width='300px'>
+<img src='2560x1440_scrot.png' width='600px'>
 
 ## Installation
 - rename secrets.yml.example to secrets.yml and put your data in it  
 - run 'ruby starter.rb'
 
-## Autostart
-Kde plasma 5:  
+## Autostart 
 Create a file `conky.desktop` in `~/.config/autostart` directory and fill it in with the following contents:  
 ```
 [Desktop Entry]
@@ -17,7 +16,7 @@ Terminal=false
 ```
 
 ### Dependencies
-Required:  
+Required:
   - curl
   - ss
   - acpi
