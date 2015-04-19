@@ -7,7 +7,7 @@ use_xft yes
 xftfont Liberation Mono:bold:size=10
 
 # Alpha of Xft font. Must be a value at or between 1 and 0
-xftalpha 0.8
+xftalpha 0.6
 
 # Create own window instead of using desktop (required in nautilus)
 own_window yes

@@ -1,5 +1,5 @@
 # Gap, in pixels, between right or left border of screen, same as passing -x(-y) at command line
-gap_x 100
+gap_x 280
 gap_y 10
 
 # Minimum size of text area
@@ -16,5 +16,8 @@ ${color0}Kernel: $color$kernel
 ${color0}Uptime: $color$uptime
 ${color0}Updates available: $color${texeci 360 sudo pacman -Sy >/dev/null && pacman -Qu | wc -l}
 ${color0}Time local: ${color grey60}${execi 30 date +"%H:%M"}
+${goto 37}${color0}Sydney: $color${execi 30 TZ=Australia/Sydney date +"%H:%M"}
 ${goto 37}${color0}Moscow: $color${execi 30 TZ=Europe/Moscow date +"%H:%M"}
+${goto 37}${color0}New York: $color${execi 30 TZ=America/New_York date +"%H:%M"}
+${goto 37}${color0}San Francisco: $color${execi 30 TZ=America/San_Francisco date +"%H:%M"}
 ${color0}Load: $color$loadavg
