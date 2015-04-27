@@ -1,5 +1,5 @@
 # Gap, in pixels, between right or left border of screen, same as passing -x(-y) at command line
-gap_x 2240
+gap_x 2200
 gap_y 1350
 
 # Minimum size of text area

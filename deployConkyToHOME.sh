@@ -1,11 +1,11 @@
 # remove old stuff
-rm ~/.conky/*
+rm -r ~/.conky/*
 
 # copy new stuff
 cp -r * ~/.conky/
 
 # start conky
 cd ~/.conky/
-ruby starter.sh
+ruby starter.rb
 
 
